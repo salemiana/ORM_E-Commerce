@@ -26,7 +26,7 @@ Product.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
       validate: {
-        isPrice: true},
+        isDecimal: true},
     },
     // define a stock column
     stock: {
