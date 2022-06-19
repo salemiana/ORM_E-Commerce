@@ -4,10 +4,6 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 
 Your challenge is to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
-
-Before you start, clone [the starter code](https://github.com/coding-boot-camp/fantastic-umbrella).
-
 
 ## User Story
 
@@ -32,24 +28,6 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
-
-## Mock-Up
-
-The following animations show examples of the application's API routes being tested in Insomnia.
-
-The first animation shows GET routes to return all categories, all products, and all tags being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-
-The second animation shows GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The final animation shows the POST, PUT, and DELETE routes for categories being tested in Insomnia:
-
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
 
 ## Getting Started
@@ -159,13 +137,7 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
 
 
-## Review
 
-You are required to submit BOTH of the following for review:
-
-* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
